@@ -1,5 +1,5 @@
 """
-URL configuration for setup project.
+URL configuration for professores project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.2/topics/http/urls/
@@ -15,15 +15,8 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path, include
-# from rest_framework import routers
-# from core.views import UserViewSet
+from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-<<<<<<< HEAD
-    # path('api/core', include('core.urls')),
-=======
-    path('api/core/', include('core.urls')),
->>>>>>> 994ef0668f03ff106e314f8849c717fe7120fe3c
 ]
